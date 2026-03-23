@@ -53,8 +53,8 @@ export const Banner = () => {
                 <div className="banner-content">
                   <button onClick={() => {
                     const link = document.createElement('a');
-                    link.href = 'Mohamed-Aghnaou-CV-FRANCAIS-Logiciel-AI-LATEX.pdf';
-                    link.download = 'Mohamed-Aghnaou-CV-FRANCAIS-Logiciel-AI-LATEX.pdf';
+                    link.href = 'Mohamed-Aghnaou-CV-FRANCAIS.pdf';
+                    link.download = 'Mohamed-Aghnaou-CV-FRANCAIS.pdf';
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
